@@ -1,0 +1,51 @@
+*.log*
+.cache
+.DS_Store
+.idea
+.vscode
+
+packages/create-vant-cli-app/lib
+packages/create-vant-cli-app/node_modules
+
+packages/vant/node_modules
+packages/vant/es
+packages/vant/lib
+
+packages/vant-area-data/dist
+packages/vant-area-data/node_modules
+
+packages/vant-auto-import-resolver/dist
+packages/vant-auto-import-resolver/node_modules
+
+packages/vant-cli/dist
+packages/vant-cli/lib
+packages/vant-cli/node_modules
+
+packages/vant-compat/node_modules
+
+packages/vant-eslint-config/node_modules
+
+packages/vant-popperjs/dist
+packages/vant-popperjs/node_modules
+
+packages/vant-touch-emulator/dist
+
+packages/vant-use/dist
+packages/vant-use/node_modules
+
+# npm
+node_modules
+package-lock.json
+
+# test
+**/test/coverage
+
+# dist file
+es
+lib
+dist
+**/site-dist
+changelog.generated.md
+
+# temp file
+packages/vant/README.md
